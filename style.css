@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Lobster', cursive;
+	 scroll-behavior: smooth;
+}
+/*------navbar css---------*/
+.navbar{
+	background-color: #2a99f1;
+	
+}
+.navbar-light .navbar-brand{
+	color: #fff; 
+	font-size: 2rem;
+}
+.nav-item{
+	padding-right: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+	font-size: 20px;
+	color: white
+}
+/*---------------------navbar css end---------------*/
+/*------about css------------*/
+.about{
+	margin-top: 4.5rem;
+}
+/*------about css end------------*/
+
+/*------photo galary css------------*/
+.photo{
+	background-color: #2a99f1;
+}
+.photo_gallary img:hover{
+	transform: scale(1.1);
+	transition: linear 0.2s;
+}
+/*------photo galary css end------------*/
+
+/*------my tour css------------*/
+.rounded{
+	border: 3px solid #000;
+}
+.tour_img img:hover{
+	box-shadow: 5px 5px 10px #6c757d;
+
+}
+.tour p{
+	font-size: 1.2rem;
+}
+/*------my tour css end------------*/
+
+
+/*------testimonial css------------*/
+
+.testimonial{
+	background-color: #2a99f1;
+}
+/*------testimonial css end------------*/
+
+/*-----contact css----*/
+.btn{
+	 padding: 5px 50px;
+	 box-shadow: 2px 5px 10px #000;
+}
+.map img{
+	border: 3px solid  #2a99f1;;
+}
+
+/*-----contact css end----*/
+/*-------------footer css----------*/
+.footer{
+	background-color: #2a99f1;
+}
+.footer p{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+/*-------------footer css end----------*/
+
+/*------------media query-------------*/
+@media (max-width: 768px) {
+  .nav-item{
+  	text-align: center;
+  }
+  .about_me{
+  	margin: 25px auto;
+  }
+  .test{
+  	text-align: center;
+  }
+  .form{
+  	margin: 20px auto;
+  }
+  .footer p{
+	font-size: 12px;
+}
+}
